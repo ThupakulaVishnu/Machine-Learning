@@ -4,11 +4,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-data=pd.read_csv(r"F:\ML\6_Udemy\Data Preprocessing\Data.csv")
+data=pd.read_csv("Data.csv")
 
 
 qualitative=[i for i in data.describe()]
 # print(qualitative)
+
 from  sklearn.impute import SimpleImputer
 asd=SimpleImputer(missing_values=np.NaN,strategy='mean')
 
@@ -23,13 +24,14 @@ for i in qualitative:
 #Filling the categorical data
 
 aq=SimpleImputer(missing_values=np.nan,strategy="most_frequent")
-data['Country']=aq.fit_transform(data[["Country"]]).ravel()#----------->
+data['Country']=aq.fit_transform(data[["Country"]]).ravel()
 # print(data.isna().sum())
 # print(data)
 
 X=data.iloc[:,:-1].values
 Y=data.iloc[:,-1].values
 
+#Encoding the categorical data...
 
 # from sklearn.compose import ColumnTransformer
 # from sklearn.preprocessing import OneHotEncoder
