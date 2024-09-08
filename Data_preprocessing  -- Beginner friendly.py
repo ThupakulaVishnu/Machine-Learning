@@ -55,6 +55,7 @@ x_train,x_test,y_train,y_test=train_test_split(X,Y,test_size=0.2,random_state=0)
 # print("------------------------------------------")
 # print(y_test)
 
+#Feature Scaling
 from sklearn.preprocessing import StandardScaler,normalize
 # x_train[:,1:]=normalize(x_train[:,1:])
 # x_test[:,1:]=normalize(x_test[:,1:])
