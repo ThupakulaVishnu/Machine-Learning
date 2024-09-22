@@ -1,0 +1,25 @@
+                           🎉Consumer Preference & Sales Drivers Analysis for a Leading Food & Beverage Manufacturer 📊
+
+I'm thrilled to share that I've completed my first project! In this project, I developed a machine learning model to analyze consumer preference trends (themes) and identify the key drivers of sales for a major Food & Beverage manufacturer. The goal was to help the client understand consumer behavior and make data-driven decisions to boost their sales.
+
+Here’s a quick overview of the steps I took for my project "Consumer Preference & Sales Drivers for Business Growth":
+
+📊 Data Collection: Collected data from multiple sources, including client-provided sales data, social media mentions, Google search trends, and theme-product mappings.
+
+🔍 Data Understanding: Explored the datasets with functions like head(), describe(), and info() to understand the structure and identify key variables.
+
+🛠️ Data Preprocessing: Merged data from different sources, checked for missing values, handled data sparsity, and addressed anomalies in each dataset.
+
+🔧 Feature Engineering: Created theme-level aggregations for sales, mapped products to themes and manufacturers, and calculated social and search trends for each theme.
+
+📈 Exploratory Data Analysis: Analyzed overall market share, identified top competitors for each theme, and explored trends and seasonality across themes using bar charts, time series analysis, and correlation heatmaps.
+
+🏷️ Data Transformation: Performed appropriate transformations to create a dependent variable (sales at the theme level) and encoded categorical variables as needed.
+
+📂 Modeling: Built a regression model to estimate the impact of social media trends, search trends, own price, and competitor actions on sales.
+
+💻 Model Training and Validation: Trained and validated the model for the top 3 themes, using holdout validation to ensure model performance.
+
+📊 Business Insights: Identified the controllable factors that could increase sales, with recommendations on how to achieve a 5% sales boost for specific themes.
+
+📢 Please check out the details in the provided notebook to explore the full analysis and model!
